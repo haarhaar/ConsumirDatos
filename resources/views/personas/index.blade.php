@@ -40,6 +40,12 @@
 <body>
     <div class="container">
         <h1 class="titulopersona">Persona AMSS</h1>
+        @if(session('estado'))
+            <div class="alert alert-success">
+                {{session('estado')}}
+            </div>
+        @endif
+
                 <table class="table">
                     <thead class="cabeza">
                         <tr class="prueba">
