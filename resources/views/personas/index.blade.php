@@ -4,7 +4,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Persona AMSS</title>
-    <link rel="stylesheet" href="/css/app.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
     <STYLE TYPE="text/css">
     .titulopersona {
       font-size: 40px;
@@ -19,7 +23,7 @@
     color: 	#000000;
     padding: 25px;
     font: 14px Arial, Tahoma;
-    background-image: url("grid.jpg");
+    /*background-image: url("grid.jpg");*/
     }
     .prueba{
       text-decoration: underline;
@@ -36,6 +40,7 @@
       font: 25px Arial;
     }
   </STYLE>
+
 </head>
 <body>
     <div class="container">
@@ -45,6 +50,12 @@
                 {{session('estado')}}
             </div>
         @endif
+
+        <div class="container">
+          <img src="Analista-programador.png" class="img-rounded" alt="analiprof Terre" width="304" height="236">
+        </div>
+
+
 
                 <table class="table">
                     <thead class="cabeza">
